@@ -21,6 +21,7 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   line-height: 0.5;
+  line-height: 1.1;
 }
 
 a {
@@ -129,7 +130,7 @@ color: rgb(145, 100, 181)
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .gallery-pic {
-    width: 300px;
-    height: 234px;
+    width: 270px;
+    height: 211px;
   }
 }
