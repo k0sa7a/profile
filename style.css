@@ -96,6 +96,7 @@ color: rgb(145, 100, 181)
   margin: 8px;
   border-radius: 4px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  aspect-ratio: 16/9;
 }
 .image-gallery {
   flex-wrap: wrap;
@@ -122,5 +123,13 @@ color: rgb(145, 100, 181)
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .gallery-pic {
+    width: 300px;
+    height: 234px;
   }
 }
